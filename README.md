@@ -1,3 +1,3 @@
-#recipiesapp-ng
+# recipiesapp-ng
 
-Recipie Sharing web app built using Angular and Firebase
+Recipie Sharing web app built using ngular and Firebase
