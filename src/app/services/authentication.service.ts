@@ -37,8 +37,9 @@ registerdUser: any;
     //
     try {
       const auth = await firebase.auth().signInWithEmailAndPassword(data.email, data.password);
+      return auth;
     } catch (error) {
-
+      return error;
     }
   }
 

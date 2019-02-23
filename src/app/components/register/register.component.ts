@@ -24,7 +24,7 @@ user: any;
     console.log('Authenticate data', data);
     // return this.authService.handleRegistration(data).subscribe( (response) => this.user = response);
     this.user = this.authService.handleRegistration(data);
-    // this.firestore.doc(`/users/${this.user.user.uid}`).set(data);
+    this.firestore.doc(`/users/${this.user.user.uid}`).set(data);
     // this.auth.auth.app.database('/users');
   }
 }
