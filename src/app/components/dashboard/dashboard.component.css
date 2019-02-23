@@ -1,0 +1,11 @@
+.essentialLinks {
+    padding-left: 20px;
+}
+.essentialLinks a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+.essentialLinks a:hover {
+    color: blueviolet
+}

@@ -17,6 +17,14 @@ registerdUser: any;
     private firestore: AngularFirestore
     ) { }
 
+    // async isLoggedIn () {
+    //   try {
+    //     firebase.auth().currentUser
+    //   } catch (error) {
+
+    //   }
+    // }
+
   async handleRegistration(data: any) {
     try {
       console.log('handleRegistration data', data);

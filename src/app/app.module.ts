@@ -19,6 +19,8 @@ import { HomeComponent } from './components/home/home.component';
 import { RegisterComponent } from './components/register/register.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { ForgotPasswordComponent } from './components/forgot-password/forgot-password.component';
+import { DashboardComponent } from './components/dashboard/dashboard.component';
 
 import { appRoutes } from '../app/router.module';
 import { AuthenticationService } from './services/authentication.service';
@@ -30,7 +32,9 @@ import { AuthenticationService } from './services/authentication.service';
     FooterComponent,
     LoginComponent,
     HomeComponent,
-    RegisterComponent
+    RegisterComponent,
+    ForgotPasswordComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
