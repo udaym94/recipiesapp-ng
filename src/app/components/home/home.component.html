@@ -1,0 +1,19 @@
+<div class="row">
+  <div class="col-md-8">
+    <table class="table table-responsive">
+      <tr>
+        <th>Name</th>
+        <th>Username</th>
+        <th>Email</th>
+      </tr>
+      <tr *ngFor="let user of users | async">
+        <td>{{ user.name }}</td>
+        <td>{{ user.username }}</td>
+        <td>{{ user.email }}</td>
+      </tr>
+    </table>
+  </div>
+  <div class="col-md-4">
+
+  </div>
+</div>
